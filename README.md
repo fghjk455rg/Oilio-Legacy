@@ -1,2 +1,2 @@
-# oilio-l
- RTS mindustry mod (still without campaign)
+# Oilio L
+ Json version of RTS mindustry mod (still without campaign)
