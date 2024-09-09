@@ -1,0 +1,16 @@
+name: Belt Bridge
+description: X
+type: BufferedItemBridge
+category: distribution
+health: 30
+size: 1
+requirements: [
+	graphite/6
+	lead/6
+]
+
+range: 5
+hasPower: false
+
+parent: 1coregenesis
+alwaysUnlocked: true

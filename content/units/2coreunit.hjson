@@ -1,0 +1,80 @@
+//from other mod
+health: 10
+speed: 3
+drag: 0.2
+accel: 0.1
+rotateSpeed: 10
+hitSize: 4
+flying: true
+lowAltitude: true
+omniMovement: true
+engineOffset: 4
+lightRadius: 80
+lightColor: ffffff55
+outlineColor: 0c0c1d
+buildSpeed: 1
+
+mineRange: 40
+mineTier: 5
+mineSpeed: 1
+mineHardnessScaling: false
+
+
+
+//drawBuildBeam: false
+
+weapons: [
+
+//{
+//name: bauarbeiter
+//x: 2
+//y: 0
+//mirror: true
+//rotate: false
+//type: buildWeapon
+//}
+
+
+
+{
+"name": "2coreunit-rotator"
+mirror: false
+"x": 0
+"y": 0
+"reload": true
+"rotate": false
+"alwaysShooting": true
+"reload": 5
+"recoil": 0
+"shootSound": "none"
+"parts": [
+{
+"type": "regionPart"
+"suffix": "-rotator"
+"progress": "reload"
+"moveRot": 90
+"x": 0
+"y": 0
+"layerOffset": -0.001
+}
+]
+"bullet": {
+"type": "basicBulletType"
+            "lifetime": "1"
+            "speed": "10"
+            "damage": "5"
+"recoil": 0
+            "frontColor": "00000000"
+            "backColor": "00000000"
+"shootEffect": "none"
+"despawnEffect": "none"
+"hitEffect": "none"
+"smokeEffect": "none"
+"height": 8
+"width": 8
+}
+}
+]
+
+name: Adam
+description: X

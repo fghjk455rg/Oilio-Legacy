@@ -1,0 +1,28 @@
+name: Air port
+description: X
+type: UnitCargoLoader
+category: distribution
+health: 60
+size: 2
+requirements: [
+	graphite/20
+	silicon/12
+	metaglass/10
+]
+
+buildTime: 1800
+consumes: {
+	power: 2
+	liquid: hydrogen/0.1
+}
+itemCapacity: 40
+unitType: oiliol-1cargoblimp
+polySides: 4
+//думал 3 сделать, но выглядит не очень
+polyRadius: 3
+polyRotateSpeed: 2
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+squareSprite: false

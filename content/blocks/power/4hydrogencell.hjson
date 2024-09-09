@@ -1,0 +1,50 @@
+name: Hydrogen cell
+description: X
+type: ConsumeGenerator
+category: power
+health: 30
+size: 2
+requirements: [
+	lead/8
+	silicon/16
+	titanium/12
+]
+lightRadius: 10
+
+powerProduction: 2
+liquidCapacity: 10
+consumes: {
+	liquid: hydrogen/0.05
+}
+ambientSound: hum
+ambientSoundVolume: 0.25
+loopSound: smelter
+outputLiquid: water/0.2
+ignoreLiquidFullness: true
+hasLiquids: true
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+drawer: [
+        {
+	type: DrawRegion
+	suffix: -bottom
+	}
+        {
+        type: DrawLiquidRegion
+        drawLiquid: hydrogen
+        suffix: -liquid
+        }
+        {	
+        type: DrawDefault
+	}
+	{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 0.5
+	glowScale: 5
+	color: dfb5e980
+	}
+]
+squareSprite: false

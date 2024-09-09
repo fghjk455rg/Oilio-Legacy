@@ -1,0 +1,57 @@
+name: Plastanium Synthesizer
+description: X
+type: GenericCrafter
+category: crafting
+health: 90
+size: 3
+requirements: [
+	silicon/40
+	metaglass/30
+	titanium/20
+]
+
+craftTime: 240
+consumes: {
+	power: 4
+	items: [
+		titanium/2
+	]
+	liquids: [
+		oil/0.4
+		nitrogen/0.4
+	]
+}
+outputItem: plastanium/1
+hasLiquids: true
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+
+squareSprite: false
+drawer: [
+{
+	type: DrawRegion
+	suffix: -bottom
+}
+{
+	type: DrawLiquidRegion
+	drawLiquid: oil
+	suffix: -liquid1
+}
+{
+	type: DrawLiquidRegion
+	drawLiquid: nitrogen
+	suffix: -liquid2
+}
+{
+	type: DrawDefault
+}
+{
+	type: DrawGlowRegion
+	suffix: "-glow"
+	alpha: 0.4
+	glowScale: 7
+	color: def4f366
+}
+]

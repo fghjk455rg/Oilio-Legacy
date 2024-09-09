@@ -1,0 +1,19 @@
+name: Liquid tank
+description: X
+type: LiquidRouter
+category: liquid
+health: 30
+size: 1
+requirements: [
+	graphite/2
+	metaglass/3
+]
+
+liquidCapacity: 60
+underBullets: true
+solid: false
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+squareSprite: false

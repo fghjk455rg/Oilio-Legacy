@@ -1,0 +1,19 @@
+name: Beacon
+description: X
+type: Radar
+category: effect
+health: 60
+size: 2
+requirements: [
+	silicon/28
+	plastanium/20
+]
+lightRadius: 60
+fogRadius: 40
+
+consumes: {
+	power: 6
+}
+
+parent: 1coregenesis
+alwaysUnlocked: true

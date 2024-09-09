@@ -1,0 +1,32 @@
+name: Ship assembler
+description: X
+type: UnitAssembler
+category: units
+health: 80
+size: 2
+requirements: [
+	graphite/40
+	lead/20
+	silicon/30
+]
+lightRadius: 60
+
+plans: [
+	{
+		unit: risso
+		time: 3600
+		requirements: [
+			oilio-1deflectwall/2
+			oilio-1sentry/1
+		]
+	}
+]
+droneType: assembly-drone
+dronesCreated: 4
+areaSize: 4
+consumes: {
+	power: 2
+}
+
+parent: 1coregenesis
+alwaysUnlocked: true

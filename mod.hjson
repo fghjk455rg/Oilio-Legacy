@@ -1,0 +1,8 @@
+name: oiliol
+displayName: Oilio (WIP)
+author: Enless
+description: Add new planet and research tree.
+version: 0.0.wip
+minGameVersion: 146
+hidden: false
+hideBrowser: false

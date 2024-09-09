@@ -1,0 +1,45 @@
+name: Deoxidizer
+description: X
+type: AttributeCrafter
+category: production
+health: 60
+size: 2
+requirements: [
+	graphite/20
+	silicon/10
+	metaglass/20
+]
+
+craftTime: 240
+consumes: {
+	power: 2
+	liquids: [
+		hydrogen/0.05
+	]
+}
+outputItem: titanium/2
+outputLiquid: nitrogen/0.2
+attribute: titanum
+displayEfficiency: true
+baseEfficiency: 0
+ignoreLiquidFullness: true
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+squareSprite: false
+drawer: [
+{
+	type: DrawRegion
+	suffix: -bottom
+}
+{
+	type: DrawPlasma
+	suffix: -plasma
+	plasma1: 5a58c4
+	plasma2: 7382f0
+}
+{
+	type: DrawDefault
+}
+]

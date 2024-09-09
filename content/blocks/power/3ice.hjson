@@ -1,0 +1,49 @@
+name: Internal Combustion Generator
+description: X
+type: ConsumeGenerator
+category: power
+health: 30
+size: 2
+requirements: [
+	graphite/12
+	lead/22
+]
+lightRadius: 10
+
+powerProduction: 4
+liquidCapacity: 10
+consumes: {
+	liquid: oil/0.1
+}
+ambientSound: hum
+ambientSoundVolume: 0.25
+loopSound: smelter
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+drawer: [
+        {
+	type: DrawRegion
+	suffix: -bottom
+	}
+        {	
+        type: DrawPistons
+        suffix: -piston
+        sinMag: 2
+        sinScl: 3
+	sideOffset: 3.14
+        sides: 4
+	}
+        {	
+        type: DrawDefault
+	}
+	{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 1
+	glowScale: 5
+	color: ff8042
+	}
+]
+squareSprite: false

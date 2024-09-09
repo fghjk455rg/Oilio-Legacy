@@ -1,0 +1,21 @@
+name: Substation
+description: X
+type: PowerNode
+category: power
+health: 10
+size: 1
+requirements: [
+	graphite/2
+	lead/3
+]
+lightRadius: 10
+
+maxNodes: 12
+laserRange: 6
+laserColor1: dffbb6
+laserColor2: 9cb664
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+squareSprite: false

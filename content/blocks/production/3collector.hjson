@@ -1,0 +1,38 @@
+name: Collector
+description: X
+type: AttributeCrafter
+category: production
+health: 90
+size: 3
+requirements: [
+	graphite/40
+	lead/24
+]
+
+craftTime: 5
+consumes: {
+	power: 0.5
+}
+outputLiquid: oil/0.6
+attribute: steam
+displayEfficiency: true
+baseEfficiency: 0
+minEfficiency: 8.9
+hasItems: false
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+squareSprite: false
+craftEffect: {
+  particles: 1
+  length: 50
+  lifetime: 240
+  cone: 12
+  baseRotation: 32
+  sizeFrom: 2
+  sizeTo: 7
+  colorTo: 31313100
+  sizeInterp: pow2Out
+  interp: pow2Out
+}

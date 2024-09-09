@@ -1,0 +1,52 @@
+name: Silicon Furnace
+description: X
+type: HeatCrafter
+category: crafting
+health: 60
+size: 2
+requirements: [
+	graphite/30
+	lead/18
+]
+lightRadius: 70
+
+craftTime: 240
+consumes: {
+	power: 2
+	items: [
+		sand/2
+		graphite/1
+	]
+}
+outputItem: silicon/2
+heatRequirement: 2
+maxEfficiency: 2.0
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{	
+			type: DrawArcSmelt
+		}
+		{	
+			type: DrawDefault
+		}
+		{	
+			type: DrawHeatInput
+		}
+		{
+			type: DrawGlowRegion
+			suffix: -glow
+			alpha: 1
+			glowScale: 5
+			color: ffaa6655
+		}
+		]
+}

@@ -1,0 +1,7 @@
+type: SteamVent
+parent: dacite
+blendGroup: dacite
+attributes: {
+oil: 2
+steam: 1
+}

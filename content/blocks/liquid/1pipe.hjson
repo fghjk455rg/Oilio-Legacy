@@ -1,0 +1,18 @@
+name: Pipe
+description: X
+type: ArmoredConduit
+category: liquid
+health: 10
+size: 1
+requirements: [
+	graphite/1
+	metaglass/2
+]
+
+junctionReplacement: oiliol-3liquidx
+bridgeReplacement: oiliol-5pipebridge
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+squareSprite: false

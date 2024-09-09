@@ -1,0 +1,21 @@
+type: tether
+name: Transport blimp
+Controller: CargoAI
+isEnemy: false
+allowedInPayloads: false
+logicControllable: false
+playerControllable: false
+envDisabled: 0
+payloadCapacity: 0
+lowAltitude: false
+flying: true
+drag: 0.06
+speed: 0.5
+rotateSpeed: 1
+accel: 0.1
+itemCapacity: 20
+health: 10
+hitSize: 11
+hidden: true
+alwaysUnlocked: true
+armor: 0

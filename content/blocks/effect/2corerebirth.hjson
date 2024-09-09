@@ -1,0 +1,23 @@
+name: Core "Rebirth"
+description: X
+type: CoreBlock
+category: effect
+health: 600
+size: 4
+requirements: [
+	titanium/200
+	tungsten/100
+	silicon/300
+]
+lightRadius: 60
+fogRadius: 11
+
+isFirstTier: true
+unitType: evoke
+itemCapacity: 1200
+unitCapModifier: 6
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+squareSprite: false

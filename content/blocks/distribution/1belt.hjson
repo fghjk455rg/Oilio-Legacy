@@ -1,0 +1,19 @@
+name: Belt
+description: X
+type: Conveyor
+category: distribution
+health: 10
+size: 1
+requirements: [
+	graphite/2
+	lead/1
+]
+
+speed: 0.03
+displayedSpeed: 4.2
+buildCostMultiplier: 2
+junctionReplacement: oiliol-3beltx
+bridgeReplacement: oiliol-5beltbridge
+
+parent: 1coregenesis
+alwaysUnlocked: true

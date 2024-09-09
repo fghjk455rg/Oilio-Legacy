@@ -1,0 +1,50 @@
+name: Metaglass Smelter
+description: X
+type: HeatCrafter
+category: crafting
+health: 60
+size: 2
+requirements: [
+	graphite/24
+	lead/10
+	silicon/10
+]
+lightRadius: 60
+
+craftTime: 240
+consumes: {
+	power: 1
+	items: [
+		sand/4
+		lead/2
+	]
+}
+outputItem: metaglass/2
+heatRequirement: 1
+maxEfficiency: 1.0
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{	
+			type: DrawDefault
+		}
+		{	
+			type: DrawHeatInput
+		}
+		{
+			type: DrawGlowRegion
+			suffix: -glow
+			alpha: 0.1
+			glowScale: 1
+			color: ffaa6655
+		}
+		{	
+			type: DrawFlame
+			flameColor: ffef99
+		}
+		]
+}

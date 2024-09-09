@@ -1,0 +1,27 @@
+name: Graphite Press
+description: X
+type: GenericCrafter
+category: crafting
+health: 60
+size: 2
+requirements: [
+	graphite/20
+	lead/10
+]
+
+craftTime: 120
+consumes: {
+	power: 1
+	liquids: [
+		oil/0.2
+	]
+}
+outputItem: graphite/2
+outputLiquid: hydrogen/0.05
+ignoreLiquidFullness: true
+craftEffect: smokeCloud
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+squareSprite: false

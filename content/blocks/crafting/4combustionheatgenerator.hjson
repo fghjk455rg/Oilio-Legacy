@@ -1,0 +1,21 @@
+name: Combustion Heat Generator
+description: X
+type: HeatProducer
+category: crafting
+health: 30
+size: 2
+requirements: [
+	graphite/26
+]
+lightRadius: 30
+
+heatOutput: 2
+consumes: {
+	liquids: [
+		oil/0.2
+	]
+}
+liquidCapacity: 4
+
+parent: 1coregenesis
+alwaysUnlocked: true

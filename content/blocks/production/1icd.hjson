@@ -1,0 +1,27 @@
+name: Internal Combustion Drill
+description: X
+type: Drill
+category: production
+health: 60
+size: 2
+requirements: [
+	graphite/14
+	lead/6
+]
+
+drillTime: 480
+tier: 2
+drawMineItem: true
+rotateSpeed: 2
+consumes: {
+	liquids: [
+		oil/0.025
+	]
+}
+liquidBoostIntensity: 1
+liquidCapasity: 4
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+squareSprite: false

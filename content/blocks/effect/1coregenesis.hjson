@@ -1,0 +1,25 @@
+name: Core "Genesis"
+description: X
+type: CoreBlock
+category: effect
+health: 200
+size: 3
+requirements: [
+	graphite/400
+	lead/200
+	silicon/100
+]
+lightRadius: 60
+fogRadius: 11
+
+isFirstTier: true
+unitType: oiliol-2coreunit
+itemCapacity: 1200
+unitCapModifier: 6
+
+research: {
+	root: true
+	alwaysUnlocked: true
+}
+
+squareSprite: false

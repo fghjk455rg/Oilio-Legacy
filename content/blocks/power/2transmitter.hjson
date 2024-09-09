@@ -1,0 +1,21 @@
+name: Transmitter
+description: X
+type: PowerNode
+category: power
+health: 10
+size: 2
+requirements: [
+	graphite/2
+	lead/3
+]
+lightRadius: 10
+
+maxNodes: 2
+laserRange: 60
+laserColor1: dffbb6
+laserColor2: 9cb664
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+squareSprite: false

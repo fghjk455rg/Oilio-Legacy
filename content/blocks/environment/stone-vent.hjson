@@ -1,0 +1,7 @@
+type: SteamVent
+parent: stone
+blendGroup: stone
+attributes: {
+oil: 1
+steam: 1
+}
