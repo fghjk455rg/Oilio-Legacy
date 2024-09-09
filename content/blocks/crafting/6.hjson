@@ -1,0 +1,55 @@
+name: X drawer prototype
+description: X
+type: HeatCrafter
+category: crafting
+health: 90
+size: 3
+requirements: [
+	graphite/30
+	lead/18
+]
+lightRadius: 70
+
+craftTime: 360
+consumes: {
+	power: 2
+	items: [
+		graphite/2
+		tungsten/4
+	]
+}
+outputItem: carbide/4
+heatRequirement: 8
+maxEfficiency: 1.0
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{	
+			type: DrawArcSmelt
+		}
+		{	
+			type: DrawArcSmelt
+		}
+		{	
+			type: DrawDefault
+		}
+		{	
+			type: DrawHeatInput
+		}
+		{
+			type: DrawGlowRegion
+			suffix: -glow
+			alpha: 1
+			glowScale: 5
+			color: ffaa6655
+		}
+		]
+}
