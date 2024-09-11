@@ -1,0 +1,7 @@
+type: SteamVent
+parent: shale
+blendGroup: shale
+attributes: {
+oil: 2
+steam: 1
+}

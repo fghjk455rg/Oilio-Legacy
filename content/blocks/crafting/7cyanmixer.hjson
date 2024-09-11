@@ -1,0 +1,59 @@
+name: Cyan Mixer
+description: X
+type: GenericCrafter
+category: crafting
+health: 90
+size: 3
+requirements: [
+	silicon/30
+	titanium/20
+	plastan/40
+]
+lightRadius: 70
+
+craftTime: 240
+consumes: {
+	power: 3
+	items: [
+		graphite/1
+	]
+	liquids: [
+		nitrogen/0.2
+	]
+}
+outputLiquid: cyanogen/0.3
+liquidCapasity: 6
+hasLiquids: true
+
+parent: 1coregenesis
+alwaysUnlocked: true
+
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom
+		}
+		{
+			type: DrawLiquidRegion
+			drawLiquid: nitrogen
+			suffix: -liquid1
+		}
+		{
+			type: DrawLiquidRegion
+			drawLiquid: cyanogen
+			suffix: -liquid2
+		}
+		{
+			type: DrawBlurSpin
+			suffix: -rotor
+			rotateSpeed: 1
+			spinSprite: true
+			layer: 200
+		}
+		{	
+			type: DrawDefault
+		}
+		]
+}

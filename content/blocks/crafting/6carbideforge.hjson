@@ -1,12 +1,13 @@
-name: X drawer prototype
+name: Carbide Forge
 description: X
 type: HeatCrafter
 category: crafting
 health: 90
 size: 3
 requirements: [
-	graphite/30
-	lead/18
+	graphite/120
+	silicon/60
+	tungsten/40
 ]
 lightRadius: 70
 
@@ -31,6 +32,9 @@ drawer: {
 		{
 			type: DrawRegion
 			suffix: -bottom
+		}
+		{	
+			type: DrawArcSmelt
 		}
 		{	
 			type: DrawArcSmelt

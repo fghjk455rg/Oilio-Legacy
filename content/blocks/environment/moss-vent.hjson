@@ -1,0 +1,7 @@
+type: SteamVent
+parent: moss
+blendGroup: moss
+attributes: {
+oil: 2
+steam: 1
+}
